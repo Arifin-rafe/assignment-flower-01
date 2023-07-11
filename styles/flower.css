@@ -1,7 +1,8 @@
 /*  header */
-.body{
+.body {
     margin: 0%;
 }
+
 .all-header {
     position: relative;
 
@@ -36,7 +37,7 @@
 
 
 .btn-primary {
-    background-color: orangered;
+    background-color: #E55473;
     width: 160px;
     height: 64px;
     color: aliceblue;
@@ -45,13 +46,93 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    
+
     border-radius: 5px;
 }
 
-.hot-deals{
+.hot-deals {
     background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.social-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.social-img {
+    width: 242px;
+    height: 296px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.image-container {
+    position: relative;
+    margin-top: 50px;
+
+}
+
+.infos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-search {
+    width: 400px;
+    height: 60px;
+
+}
+
+.footer-container {
+    background-color: #151414;
+    text-align: center;
+    padding: 128px;
+    margin-top: 128px;
+
+}
+
+.footer-title {
+    
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.90);
+    
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
